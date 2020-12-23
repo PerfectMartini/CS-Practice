@@ -109,6 +109,7 @@
             this.checkBox3.TabIndex = 4;
             this.checkBox3.Text = "탕수육";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -119,6 +120,7 @@
             this.checkBox2.TabIndex = 3;
             this.checkBox2.Text = "짬뽕";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -129,6 +131,7 @@
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "짜장";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button1
             // 
@@ -178,6 +181,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
