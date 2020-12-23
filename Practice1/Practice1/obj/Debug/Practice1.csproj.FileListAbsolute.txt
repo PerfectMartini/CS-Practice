@@ -1,0 +1,10 @@
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\bin\Debug\Practice1.exe.config
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\bin\Debug\Practice1.exe
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\bin\Debug\Practice1.pdb
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\obj\Debug\Practice1.csprojAssemblyReference.cache
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\obj\Debug\Practice1.Form1.resources
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\obj\Debug\Practice1.Properties.Resources.resources
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\obj\Debug\Practice1.csproj.GenerateResource.cache
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\obj\Debug\Practice1.csproj.CoreCompileInputs.cache
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\obj\Debug\Practice1.exe
+C:\Users\geonk\Documents\GitHub\C# Practice\Practice1\Practice1\obj\Debug\Practice1.pdb
