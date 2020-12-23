@@ -75,15 +75,16 @@
             // 열기OToolStripMenuItem
             // 
             this.열기OToolStripMenuItem.Name = "열기OToolStripMenuItem";
-            this.열기OToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
+            this.열기OToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.열기OToolStripMenuItem.Text = "열기(&O)";
             this.열기OToolStripMenuItem.Click += new System.EventHandler(this.열기OToolStripMenuItem_Click);
             // 
             // 저장SToolStripMenuItem
             // 
             this.저장SToolStripMenuItem.Name = "저장SToolStripMenuItem";
-            this.저장SToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
+            this.저장SToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.저장SToolStripMenuItem.Text = "저장(&S)";
+            this.저장SToolStripMenuItem.Click += new System.EventHandler(this.저장SToolStripMenuItem_Click);
             // 
             // Form1
             // 

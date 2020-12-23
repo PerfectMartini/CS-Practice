@@ -24,5 +24,14 @@ namespace Practice4
                 pictureBox1.Load(openFileDialog1.FileName);
             }
         }
+
+        private void 저장SToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = saveFileDialog1.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                pictureBox1.Image.Save(saveFileDialog1.FileName);
+            }
+        }
     }
 }
