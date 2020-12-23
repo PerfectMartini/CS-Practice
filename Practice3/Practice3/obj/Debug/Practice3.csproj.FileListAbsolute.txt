@@ -1,0 +1,10 @@
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\bin\Debug\Practice3.exe.config
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\bin\Debug\Practice3.exe
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\bin\Debug\Practice3.pdb
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\obj\Debug\Practice3.csprojAssemblyReference.cache
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\obj\Debug\Practice3.Form1.resources
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\obj\Debug\Practice3.Properties.Resources.resources
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\obj\Debug\Practice3.csproj.GenerateResource.cache
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\obj\Debug\Practice3.csproj.CoreCompileInputs.cache
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\obj\Debug\Practice3.exe
+C:\Users\geonk\Documents\GitHub\CS-Practice\Practice3\Practice3\obj\Debug\Practice3.pdb
