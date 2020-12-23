@@ -38,5 +38,17 @@ namespace Practice3
                 grp.DrawLine(pen, e.X - 3, e.Y + 10, e.X + 6, e.Y);
             }
         }
+
+        private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                Graphics grp = pictureBox2.CreateGraphics();
+                Pen pen = new Pen(Color.SteelBlue);
+                grp.DrawLine(pen, e.X - 3, e.Y - 10, e.X + 6, e.Y);
+                grp.DrawLine(pen, e.X - 14, e.Y, e.X + 6, e.Y);
+                grp.DrawLine(pen, e.X - 3, e.Y + 10, e.X + 6, e.Y);
+            }
+        }
     }
 }
