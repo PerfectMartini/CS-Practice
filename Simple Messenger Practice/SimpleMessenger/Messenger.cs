@@ -17,6 +17,7 @@ namespace SimpleMessenger
         */
         TcpClient client;
         NetworkStream stream;
+        char ClientAB;
         public Messenger()
         {
             InitializeComponent();
@@ -73,10 +74,12 @@ namespace SimpleMessenger
             int bindPort = 0;
             if (Radio_A.Checked == true)
             {
+                ClientAB = 'A';
                 bindPort = 5001;
             }
             else if (Radio_B.Checked == true)
             {
+                ClientAB = 'B';
                 bindPort = 5002;
             }
             // 일단 같은 컴퓨터 내 통신
@@ -104,20 +107,21 @@ namespace SimpleMessenger
             Label_Success.Visible = true;
 
             TextBox_ChatLog.Text += DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            TextBox_ChatLog.Text += "\t" + (char)((bindPort - 5001) + 'A') + "님께서 접속하셨습니다\n";
+            TextBox_ChatLog.Text += "\t" + ClientAB + "님께서 접속하셨습니다\r\n";
         }
 
         private void Button_Send_Click(object sender, EventArgs e)
         {
             if (client == null) return;
 
-            byte[] data = Encoding.Default.GetBytes(TextBox_SendMessage.Text);
+            string sendData = "";
+            sendData += DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            sendData += "\t" + ClientAB + " : " + TextBox_SendMessage.Text + "\r\n";
+
+            byte[] data = Encoding.Default.GetBytes(sendData);
             stream.Write(data, 0, data.Length);
 
-            TextBox_ChatLog.Text += TextBox_SendMessage.Text;
-            TextBox_SendMessage.Text = "";
-
-            ReceiveMessage();
+            TextBox_SendMessage.Clear();
         }
     }
 }
