@@ -34,6 +34,7 @@ namespace Practice_new_Memory
             return "Data - " + data.ToString();
         }
     }
+
     class Program
     {
         static void Main(string[] args)
