@@ -15,19 +15,34 @@ namespace Pracitce_Virtual_Abstract
 
         protected abstract string GetData();
     }
-    class Example : AbstractExample
+    class Example1 : AbstractExample
     {
         protected override string GetData()
         {
-            return "Hello world";
+            return "Example1";
         }
     }
+    class Example2 : AbstractExample
+    {
+        protected override string GetData()
+        {
+            return "Example2";
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Example ex = new Example();
-            ex.Print();
+            AbstractExample[] array = new AbstractExample[]
+            {
+                new Example1(), new Example2()
+            };
+
+            foreach (var ex in array)
+            {
+                ex.Print();
+            }
         }
     }
 }
